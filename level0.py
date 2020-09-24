@@ -15,3 +15,11 @@ for c in original:
     after += c
 
 print(after)
+
+# maketrans 함수 사용
+# import string
+# before ="abcdefghijklmnopqrstuvwxyz"
+# after = "cdefghijklmnopqrstuvwxyzab"
+
+# changed = original.translate(original.maketrans(before, after))
+# print(changed)
